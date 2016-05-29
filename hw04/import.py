@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS hw_a(
 );
 	''')
 
-for i in xrange(6):
+for i in range(6):
 	sn = 10*(i+1)
 	Name = 'A%d' % sn
 	cur.execute('''
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS hw_b(
 );
 	''')
 
-for i in xrange(5):
+for i in range(5):
 	sn = 10*(i+4)
 	Name = 'B%d' % sn
 	cur.execute('''
